@@ -554,7 +554,35 @@ video {
   display: none;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+.flex {
+  display: flex;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#cacbca\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 203 202 / var(--tw-bg-opacity, 1));
 }
