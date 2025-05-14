@@ -4,18 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>phoenix Media</title>
 </head>
-<body class="bg-[#cacbca]">
-    <nav class="flex justify-around items-center">
-        <div>Phoenix Media</div>
-        <div class="flex justify-around items-center list-none">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
+
+<body class="bg-[#cacbca] mx-5 pt-32 md:pt-24">
+    <nav class="bg-white shadow-md  p-5 fixed top-0 left-0 w-full z-50">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+            <div class="text-gray-800 text-2xl font-bold">Phoenix Media</div>
+            <div class="flex gap-5 justify-around items-center">
+                <ul class="flex flex-col md:flex-row gap-3 md:gap-6 list-none text-gray-700 text-lg">
+                    <li><a href="#Home"  class="hover:text-blue-600 cursor-pointer">Home</a></li>
+                    <li><a href="#About"class="hover:text-blue-600 cursor-pointer">About</a></li>
+                    <li><a href="#Service"class="hover:text-blue-600 cursor-pointer">Service</a></li>
+                    <li><a href="#Entertainment"class="hover:text-blue-600 cursor-pointer">Entertainment</a></li>
+                    <li><a href="#Sport"class="hover:text-blue-600 cursor-pointer">Sport</a></li>
+                   
+                </ul>
+                
+                
+            </div>
+            <div>+234 7000 000 000</div>
         </div>
-        <div>+234 7000 000 000</div>
     </nav>
-    <img src="images/culture.jpg" alt="">
+    <div class="h-28 md:h-20"></div>
+    <main class="p-6 bg-[#fefeff]">
+        <!-- hero section -->
+         <section class="w-full px-2 md:px-6">
+            <div class="rounded-md overflow-hidden shadow-md">
+                <video src="video/hero_video.mp4" controls class="w-full h-auto rounded-md"></video>
+            </div>
+           
+         </section>
+         <!-- <section id="Home" class="min-h-screen rounded-md shadow-md p-6 md:p-10">
+            <h2 class="text-2xl font-bold mb-4">Home</h2>
+         </section> -->
+
+    </main>
+
 </body>
 </html>
