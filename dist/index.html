@@ -1,96 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <title>Phoenix Media</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>phoenix Media</title>
 </head>
- main
-<body>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100">
+<body class="bg-[#cacbca] mx-5 md:mx-0 pt-32 md:pt-0">
+    <nav class="bg-white shadow-md p-5 fixed top-0 left-0 w-full z-50">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+            <div class="text-gray-800 text-2xl font-bold">Phoenix Media</div>
+            <div class="flex gap-5 justify-around items-center">
+                <ul class="flex flex-col md:flex-row gap-3 md:gap-6 list-none text-gray-700 text-lg">
+                    <li><a href="#Home" class="hover:text-blue-600 cursor-pointer">Home</a></li>
+                    <li><a href="#About" class="hover:text-blue-600 cursor-pointer">About</a></li>
+                    <li><a href="#Service" class="hover:text-blue-600 cursor-pointer">Service</a></li>
+                    <li><a href="#Entertainment" class="hover:text-blue-600 cursor-pointer">Entertainment</a></li>
+                    <li><a href="#Sport" class="hover:text-blue-600 cursor-pointer">Sport</a></li>
+                </ul>
+            </div>
+            <div>+234 7000 000 000</div>
+        </div>
+    </nav>
 
-  <section class="text-center py-12 bg-white">
-    <p class="text-lg text-gray-600 mb-10">Explore the latest in lifestyle, sports, and tourism</p>
+    <div class="h-28 md:hidden"></div>
 
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        
-        <div class="rounded-xl overflow-hidden shadow-lg bg-white">
-          <img src="images/pexels-pixabay-33703.jpg" alt="Sports" class="w-full h-64 object-cover">
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Sports</h3>
+    <main class="p-6 md:pt-24 bg-[#fefeff]">
+        <!-- hero section -->
+        <section class="w-full px-2 md:px-6">
+            <div class="rounded-md overflow-hidden shadow-md">
+                <video src="video/hero_video.mp4" controls class="w-full h-auto rounded-md"></video>
+            </div>
+        </section>
+
+        <h1 class="text-red-500">home</h1>
+
+        <section>
+            <div class="flex flex-col gap-5 items-center">
+                <h2 class="font-bold text-2xl opacity-80 word-wrap w-[400px]">The (temple) Capital</h2>
+                <p class="opacity-80 word-wrap w-3/4">Home to over ten million people (and much more in the metro region), Bangkok has endless sights. Its street life, museums, temples, and skyline definitely mean you can spend countless hours exploring. On the other hand, its insane traffic, diagnosed urban planning (lack of proper zoning until recently), and hot humid weather. Nevertheless, below are some of my favorites.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-10 px-20 py-3">
+                <!-- Post 1 -->
+                <div class="flex flex-col gap-4">
+                    <img src="image/javaborneo.jpg" class="w-[395px] h-1/1" alt="mountain">
+                    <div class="flex flex-col gap-2">
+                        <h2 class="font-mono opacity-80 word-wrap w-[400px]">Borneo A Quest to Indonesia's Orangutan</h2>
+                        <span class="font-mono opacity-80">June 8, 2024</span>
+                        <p class="word-wrap w-[350px] font-mono opacity-80">Exploring the jungle of Borneo in search of Orangutans and spending time with the Dayak tribe.</p>
+                    </div>
+                </div>
+                <!-- Post 2 -->
+                <div class="flex flex-col gap-4">
+                    <img src="image/javaTigers & pink city.jpg" class="w-[420px] h-1/1" alt="tiger and pink city">
+                    <div class="flex flex-col gap-2 word-wrap w-[350px]">
+                        <h2 class="font-mono opacity-80">Tigers And The Pink City</h2>
+                        <span class="font-mono opacity-80">Sept 4, 2024</span>
+                        <p class="font-mono opacity-80">Completing the golden triangle of northern India with a post covering Ranthambore National Park and Jaipur.</p>
+                    </div>
+                </div>
+                <!-- Post 3 -->
+                <div class="flex flex-col gap-4">
+                    <img src="image/javawildlife.jpg" class="w-[420px] h-1/1" alt="wildlife">
+                    <div class="flex flex-col gap-2 word-wrap w-[350px]">
+                        <h2 class="font-mono opacity-80">Wildlife Of The Pantanal</h2>
+                        <span class="font-mono opacity-80">Oct 14, 2024</span>
+                        <p class="font-mono opacity-80">The world's largest tropical wetland: Jaguar paradise of the world, and quite a bit more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="px-20 flex flex-col gap-5 items-center">
+                <p class="px-10 py-2"><span class="font-bold">What I love about it:</span> Our newest entry to the list is this incredibly designed travel blog, The Flore, written by Florian Kriechbaumer—an awesome, multi-talented man who is currently traveling the world and documenting all of his experiences on his blog...</p>
+            </div>
+        </section>
+        <section id="before-footer">
+         <div class="grid grid-cols-1 md:flex md:flex-row gap-6 mt-4">
+          <div class="grid grid-cols-1 gap-6 h-3/4">
+            <div class="relative">
+              <img src="/dist/images/explo.jpeg" width="760" class="max-w-auto rounded-xl blur-[8px]" alt="">
+              <div class="absolute top-8 md:top-10 left-10">
+                <img src="/dist/images/home.png" width="30" height="30" class="md:w-[50px] md:h-[50px] p-1 md:p-2 mt-1 md:mt-5 mb-5 md:mb-10 rounded-md bg-gray-300" alt="">
+                <h2 class="text-lg md:text-4xl font-bold text-white">Explore more to get your<br>comfort zone</h2>
+                <p class="text-sm md:text-lg mt-1 md:mt-4 mb-1 md:mb-8 text-white">Book your perfect stay with us</p>
+                <button class="flex flex-row items-center gap-1 py-1 px-2 md:py-2 md:px-4 rounded-md bg-white text-black text-lg font-semibold">Book Now <img src="/dist/images/right-arrow.png" width="20" height="15" alt=""></button>
+              </div>
+            </div>
+            <div class="relative">
+              <img src="/dist/images/cloud.jpg" class="max-w-auto rounded-xl" alt="">
+              <div class="absolute left-7 bottom-7 text-white">
+                <h3 class="text-lg font-medium">Article Available</h3>
+                <p class="text-4xl">94</p>
+              </div>
+            </div>
           </div>
-       git  </div>
-
-        <div class="rounded-xl overflow-hidden shadow-lg bg-white">
-          <img src="images/tourism projects.jpg" alt="Tourism" class="w-full h-64 object-cover">
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Lifestyle</h3>
+          <div class="relative">
+            <img src="/dist/images/photo.jpg" class="max-w-auto rounded-xl h-full" alt="">
+            <div class="absolute top-1/2 left-6 md:left-56 text-white">
+              <h3 class="text-base md:text-4xl text-start md:text-center font-medium">Beyond accomodation, creating<br> memories of a lifetime</h3>
+            </div>
           </div>
         </div>
-
-        <div class="rounded-xl overflow-hidden shadow-lg bg-white">
-          <img src="images/tourism1.jpg" alt="Sports" class="w-full h-64 object-cover">
-          <div class="p-4">
-            <h3 class="text-xl font-semibold">Tourism</h3>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
+      </section>
+    </main>
 
 </body>
+
 </html>
 
-<body class="bg-[#cacbca] mx-5 pt-32 md:pt-24">
-
-  <nav class="bg-white shadow-md p-5 fixed top-0 left-0 w-full z-50">
-    <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-      <div class="text-gray-800 text-2xl font-bold">Phoenix Media</div>
-      <ul class="flex flex-col md:flex-row gap-3 md:gap-6 list-none text-gray-700 text-lg">
-        <li><a href="#Home" class="hover:text-blue-600 cursor-pointer">Home</a></li>
-        <li><a href="#About" class="hover:text-blue-600 cursor-pointer">About</a></li>
-        <li><a href="#Service" class="hover:text-blue-600 cursor-pointer">Service</a></li>
-        <li><a href="#Entertainment" class="hover:text-blue-600 cursor-pointer">Entertainment</a></li>
-        <li><a href="#Sport" class="hover:text-blue-600 cursor-pointer">Sport</a></li>
-      </ul>
-      <div>+234 7000 000 000</div>
-    </div>
-  </nav>
-
-  <div class="h-28 md:h-20"></div>
-
-  <main class="p-6 bg-[#fefeff]">
-    <section class="w-full px-2 md:px-6">
-      <div class="rounded-md overflow-hidden shadow-md">
-        <video src="video/hero_video.mp4" controls class="w-full h-auto rounded-md"></video>
-      </div>
-    </section>
-
-    <section>
-      <div class="flex flex-col gap-5 items-center">
-        <h2 class="font-bold text-2xl opacity-80 word-wrap w-[400px]">The (temple) Capital</h2>
-        <p class="opacity-80 word-wrap w-3/4">
-          Home to over ten million people (and much more in the metro region), Bangkok has endless sights...
-        </p>
-      </div>
-
-      <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-10 px-20 py-3">
-        <!-- 3 cards here... unchanged -->
-      </div>
-
-      <div class="px-20 flex flex-col gap-5 items-center">
-        <p class="px-10 py-2">
-          <span class="font-bold">What I love about it:</span> Our newest entry to the list...
-        </p>
-      </div>
-    </section>
-  </main>
-
-
-</body>
-</html>
