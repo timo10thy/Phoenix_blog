@@ -2,82 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>phoenix Media</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>phoenix Media</title>
 </head>
+
 <body class="bg-[#cacbca] mx-5 pt-32 md:pt:24">
-    <nav class="bg-white shadow-md p-5 fixed top-0 left-0 w-full z-50">
-        <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-            <div class="text-gray-800 text-2xl font-bold">Phoenix Media</div>
-            <div class="flex gap-5 justify-around items-center">
-                <ul class="flex flex-col md:flex-row gap-3 md:gap-6 list-none text-gray-700 text-lg">
-                    <li><a href="#Home" class="hover:text-blue-600 cursor-pointer">Home</a></li>
-                    <li><a href="#About" class="hover:text-blue-600 cursor-pointer">About</a></li>
-                    <li><a href="#Service" class="hover:text-blue-600 cursor-pointer">Service</a></li>
-                    <li><a href="#Entertainment" class="hover:text-blue-600 cursor-pointer">Entertainment</a></li>
-                    <li><a href="#Sport" class="hover:text-blue-600 cursor-pointer">Sport</a></li>
-                </ul>
-            </div>
-            <div>+234 7000 000 000</div>
+  <nav class="bg-white shadow-md p-5 fixed top-0 left-0 w-full z-50">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+      <div class="text-gray-800 text-2xl font-bold">Phoenix Media</div>
+      <div class="flex gap-5 justify-around items-center">
+        <ul class="flex flex-col md:flex-row gap-3 md:gap-6 list-none text-gray-700 text-lg">
+          <li><a href="#Home" class="hover:text-blue-600 cursor-pointer">Home</a></li>
+          <li><a href="#About" class="hover:text-blue-600 cursor-pointer">About</a></li>
+          <li><a href="#Service" class="hover:text-blue-600 cursor-pointer">Service</a></li>
+          <li><a href="#Entertainment" class="hover:text-blue-600 cursor-pointer">Entertainment</a></li>
+          <li><a href="#Sport" class="hover:text-blue-600 cursor-pointer">Sport</a></li>
+        </ul>
+      </div>
+      <div>+234 7000 000 000</div>
+    </div>
+  </nav>
+
+  <div class="h-28 md:hidden"></div>
+
+  <main class="p-6 md:pt-24 bg-[#fefeff]">
+    <!-- hero section -->
+    <section class="w-full px-2 md:px-6">
+      <div class="rounded-md overflow-hidden shadow-md">
+        <video src="video/hero_video.mp4" controls class="w-full h-auto rounded-md"></video>
+      </div>
+
+      <!-- Optional section from phoniom -->
+      <!-- <section id="Home" class="min-h-screen rounded-md shadow-md p-6 md:p-10">
+        <h2 class="text-2xl font-bold mb-4">Home</h2>
+      </section> -->
+
+      <h1 class="text-red-500">home</h1>
+
+      <section>
+        <div class="flex flex-col gap-5 items-center">
+          <h2 class="font-bold text-2xl opacity-80 word-wrap w-[400px]">The (temple) Capital</h2>
+          <p class="opacity-80 word-wrap w-3/4">Home to over ten million people (and much more in the metro region), Bangkok has endless sights. Its street life, museums, temples, and skyline definitely mean you can spend countless hours exploring. On the other hand, its insane traffic, diagnosed urban planning (lack of proper zoning until recently), and hot humid weather. Nevertheless, below are some of my favorites.</p>
         </div>
-    </nav>
 
-    <div class="h-28 md:hidden"></div>
-
-    <main class="p-6 md:pt-24 bg-[#fefeff]">
-        <!-- hero section -->
-        <section class="w-full px-2 md:px-6">
-            <div class="rounded-md overflow-hidden shadow-md">
-                <video src="video/hero_video.mp4" controls class="w-full h-auto rounded-md"></video>
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-10 px-20 py-3">
+          <!-- Post 1 -->
+          <div class="flex flex-col gap-4">
+            <img src="image/javaborneo.jpg" class="w-[395px] h-1/1" alt="mountain">
+            <div class="flex flex-col gap-2">
+              <h2 class="font-mono opacity-80 word-wrap w-[400px]">Borneo A Quest to Indonesia's Orangutan</h2>
+              <span class="font-mono opacity-80">June 8, 2024</span>
+              <p class="word-wrap w-[350px] font-mono opacity-80">Exploring the jungle of Borneo in search of Orangutans and spending time with the Dayak tribe.</p>
             </div>
-        </section>
-
-        <h1 class="text-red-500">home</h1>
-
-        <section>
-            <div class="flex flex-col gap-5 items-center">
-                <h2 class="font-bold text-2xl opacity-80 word-wrap w-[400px]">The (temple) Capital</h2>
-                <p class="opacity-80 word-wrap w-3/4">Home to over ten million people (and much more in the metro region), Bangkok has endless sights. Its street life, museums, temples, and skyline definitely mean you can spend countless hours exploring. On the other hand, its insane traffic, diagnosed urban planning (lack of proper zoning until recently), and hot humid weather. Nevertheless, below are some of my favorites.</p>
+          </div>
+          <!-- Post 2 -->
+          <div class="flex flex-col gap-4">
+            <img src="image/javaTigers & pink city.jpg" class="w-[420px] h-1/1" alt="tiger and pink city">
+            <div class="flex flex-col gap-2 word-wrap w-[350px]">
+              <h2 class="font-mono opacity-80">Tigers And The Pink City</h2>
+              <span class="font-mono opacity-80">Sept 4, 2024</span>
+              <p class="font-mono opacity-80">Completing the golden triangle of northern India with a post covering Ranthambore National Park and Jaipur.</p>
             </div>
-
-            <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-10 px-20 py-3">
-                <!-- Post 1 -->
-                <div class="flex flex-col gap-4">
-                    <img src="image/javaborneo.jpg" class="w-[395px] h-1/1" alt="mountain">
-                    <div class="flex flex-col gap-2">
-                        <h2 class="font-mono opacity-80 word-wrap w-[400px]">Borneo A Quest to Indonesia's Orangutan</h2>
-                        <span class="font-mono opacity-80">June 8, 2024</span>
-                        <p class="word-wrap w-[350px] font-mono opacity-80">Exploring the jungle of Borneo in search of Orangutans and spending time with the Dayak tribe.</p>
-                    </div>
-                </div>
-                <!-- Post 2 -->
-                <div class="flex flex-col gap-4">
-                    <img src="image/javaTigers & pink city.jpg" class="w-[420px] h-1/1" alt="tiger and pink city">
-                    <div class="flex flex-col gap-2 word-wrap w-[350px]">
-                        <h2 class="font-mono opacity-80">Tigers And The Pink City</h2>
-                        <span class="font-mono opacity-80">Sept 4, 2024</span>
-                        <p class="font-mono opacity-80">Completing the golden triangle of northern India with a post covering Ranthambore National Park and Jaipur.</p>
-                    </div>
-                </div>
-                <!-- Post 3 -->
-                <div class="flex flex-col gap-4">
-                    <img src="image/javawildlife.jpg" class="w-[420px] h-1/1" alt="wildlife">
-                    <div class="flex flex-col gap-2 word-wrap w-[350px]">
-                        <h2 class="font-mono opacity-80">Wildlife Of The Pantanal</h2>
-                        <span class="font-mono opacity-80">Oct 14, 2024</span>
-                        <p class="font-mono opacity-80">The world's largest tropical wetland: Jaguar paradise of the world, and quite a bit more.</p>
-                    </div>
-                </div>
+          </div>
+          <!-- Post 3 -->
+          <div class="flex flex-col gap-4">
+            <img src="image/javawildlife.jpg" class="w-[420px] h-1/1" alt="wildlife">
+            <div class="flex flex-col gap-2 word-wrap w-[350px]">
+              <h2 class="font-mono opacity-80">Wildlife Of The Pantanal</h2>
+              <span class="font-mono opacity-80">Oct 14, 2024</span>
+              <p class="font-mono opacity-80">The world's largest tropical wetland: Jaguar paradise of the world, and quite a bit more.</p>
             </div>
+          </div>
+        </div>
 
-            <div class="px-20 flex flex-col gap-5 items-center">
-                <p class="px-10 py-2"><span class="font-bold">What I love about it:</span> Our newest entry to the list is this incredibly designed travel blog, The Flore, written by Florian Kriechbaumer—an awesome, multi-talented man who is currently traveling the world and documenting all of his experiences on his blog...</p>
-            </div>
-        </section>
-        <section id="before-footer">
-         <div class="grid grid-cols-1 md:flex md:flex-row gap-6 mt-4">
+        <div class="px-20 flex flex-col gap-5 items-center">
+          <p class="px-10 py-2"><span class="font-bold">What I love about it:</span> Our newest entry to the list is this incredibly designed travel blog, The Flore, written by Florian Kriechbaumer—an awesome, multi-talented man who is currently traveling the world and documenting all of his experiences on his blog...</p>
+        </div>
+      </section>
+
+      <section id="before-footer">
+        <div class="grid grid-cols-1 md:flex md:flex-row gap-6 mt-4">
           <div class="grid grid-cols-1 gap-6 h-3/4">
             <div class="relative">
               <img src="/dist/images/explo.jpeg" width="760" class="max-w-auto rounded-xl blur-[8px]" alt="">
@@ -99,14 +105,99 @@
           <div class="relative">
             <img src="/dist/images/photo.jpg" class="max-w-auto rounded-xl h-full" alt="">
             <div class="absolute top-1/2 left-6 md:left-56 text-white">
-              <h3 class="text-base md:text-4xl text-start md:text-center font-medium">Beyond accomodation, creating<br> memories of a lifetime</h3>
+              <h3 class="text-base md:text-4xl text-start md:text-center font-medium">Beyond accommodation, creating<br> memories of a lifetime</h3>
             </div>
           </div>
         </div>
       </section>
-    </main>
 
+      <section class="">
+        <div class="lg:flex">
+          <div class="p-6 w-[38rem]">
+            <div class="relative">
+              <img src="image/skysports-gyokeres-west-ham_6736548.jpg" alt="image" class="">
+              <div class="absolute top-0 left-5">
+                <button class="bg-gray-400 py-3 px-10 text-white text-xl rounded-2xl">sport</button>
+              </div>
+              <div class="flex space-x-10 mt-1 mb-2">
+                <span class="text-gray-600 text-[1.2rem]">13 may 2025</span>
+                <span class="text-gray-600 text-[1.2rem]">20 viewers</span>
+              </div>
+              <div>
+                <p class="mb-3 text-4xl font-bold">Sporting Lisbon striker Viktor Gyokeres</p>
+                <p class="text-gray-600 text-xl">New sporting director Andrea Berta has been very impressed with Sporting Lisbon striker Viktor Gyokeres but RB Leipzig's Benjamin Sesko also remains a target.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 w-[38rem]">
+            <div class="relative">
+              <img src="image/Mamadi_Doumbouya_13-750x430.jpg" alt="image" class="">
+              <div class="absolute top-0 left-5">
+                <button class="bg-gray-400 py-3 px-10 text-white text-xl rounded-2xl">Africa</button>
+              </div>
+              <div class="flex space-x-10 mt-1 mb-2">
+                <span class="text-gray-600 text-[1.2rem]">14 may 2025</span>
+                <span class="text-gray-600 text-[1.2rem]">8 viewers</span>
+              </div>
+              <div>
+                <p class="mb-3 text-4xl font-bold">Guinea to hold General, presidential elections in December 2025</p>
+                <p class="text-gray-600 text-xl">General and presidential elections in Guinea will take place in December 2025, Prime Minister Amadou Oury Bah said.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 w-[38rem]">
+            <div class="relative">
+              <img src="image/ussaudi-750x430.webp" alt="image" class="">
+              <div class="absolute top-0 left-5">
+                <button class="bg-gray-400 py-3 px-10 text-white text-xl rounded-2xl">World</button>
+              </div>
+              <div class="flex space-x-10 mt-1 mb-2">
+                <span class="text-gray-600 text-[1.2rem]">14 may 2025</span>
+                <span class="text-gray-600 text-[1.2rem]">70 viewers</span>
+              </div>
+              <div>
+                <p class="mb-3 text-4xl font-bold">Trump Lifts Syria Sanctions, Secures $600B Saudi Deal</p>
+                <p class="text-gray-600 text-xl">In addition, the U.S. has agreed to a nearly $142 billion arms deal with Saudi Arabia, described by the White House as the largest defence cooperation agreement in American history.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/image 11.jpeg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SPORT</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Arsenal transfer news:</h2>
+            <p class="leading-relaxed text-base"> Mikel Arteta to have at least £100m to spend in summer window for</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/image 33.jpg" alt="content">
+            <h3 class="tracking-widest text-xs font-medium title-font">SPORT</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Arsenal Lost To Psg</h2>
+            <p class="leading-relaxed text-base"> Mikel Arteta to have at least £100m to spend in summer window for</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-100 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="images/image 22.jpg" alt="content">
+            <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">SPORT</h3>
+            <h2 class="text-lg text-gray-900 font-medium title-font mb-4">Chelsea Won 3:1</h2>
+            <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
-
